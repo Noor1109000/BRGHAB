@@ -1,0 +1,2807 @@
+body{
+	background-color: #2C3A92;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side_right>ul>li{
+	list-style:none;
+}
+
+
+.bgColor {
+  background: none repeat scroll 0 0 #0099cb;
+  color: white;
+  font-weight: bold;
+}
+
+.manumVai{
+	font-size:18px;
+}
+
+.frame_Rabbi {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  padding: 0px !important;
+  text-decoration: none;
+}
+
+.frame_Rabbi:hover{
+	
+	text-decoration:none
+}
+
+.mejoVai {
+  margin-left: 40px !important;
+  width: 200px !important;
+}
+	
+
+.bd {
+	background-color: #fff;
+	padding: 0;
+}
+.head {
+	background: linear-gradient( #FFFFFF,#F5F2F3);
+	height: 130px;
+}
+
+/*================== Header Modal ==============*/
+:root {
+	--input-padding-x: 1.5rem;
+	--input-padding-y: .75rem;
+  }
+  
+  
+  
+  .card-signin {
+	border: 0;
+	border-radius: 1rem;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-signin .card-title {
+	margin-bottom: 2rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+	padding: 2rem;
+  }
+  
+  .form-signin {
+	width: 100%;
+  }
+  
+  .form-signin .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 1rem;
+	transition: all 0.2s;
+  }
+  
+  .form-label-group {
+	position: relative;
+	margin-bottom: 1rem;
+  }
+  
+  .form-label-group input {
+	height: auto;
+	border-radius: 2rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+	padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .form-label-group>label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	/* Override default `<label>` margin */
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+	color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+	color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+	color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+	color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+	color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+	padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+	padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+	padding-top: calc(var(--input-padding-y) / 3);
+	padding-bottom: calc(var(--input-padding-y) / 3);
+	font-size: 12px;
+	color: #777;
+  }
+  
+  .btn-google {
+	color: white;
+	background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+	color: white;
+	background-color: #3b5998;
+  }
+
+
+.logo {
+	float: left;
+}
+.logo img {
+	float: left;
+	margin-left: -1%;
+	margin-right: 2%;
+	margin-top: 0;
+	padding-left: 0;
+	width: 17%;
+	transform: scale(1.3);
+  }
+.heading {
+	color: #ac2f58;
+	font-family: "Aladin",cursive;
+	font-size: 1.9em;
+	font-weight: bold;
+	margin-left: 14%;
+	margin-top: 5%;
+	text-shadow: 1px 0 0 rgba(171, 38, 83, 0.8);
+  }
+.socail-logo {
+	float: left;
+}
+.socail-logo ul {
+	margin-left: 30%;
+	margin-top: 3%;
+}
+.socail-logo ul li {
+	float: left;
+	list-style: none;
+	margin-left: 8%;
+	margin-top: 10%;
+}
+
+
+.social-icon {
+	padding: 10px;
+	color: white;
+  }
+.fa.fa-youtube.social-icon {
+    background: red none repeat scroll 0 0;
+}
+.fa.fa-facebook.social-icon {
+    background: #007bb5 none repeat scroll 0 0;
+    border-radius: 1px;
+}
+.fa.fa-twitter.social-icon {
+    background: #1d9ceb none repeat scroll 0 0;
+}
+.fa.fa-linkedin.social-icon {
+    background: #007bb5 none repeat scroll 0 0;
+} 
+
+
+.nav-sec ul {
+	background: #0099CB;
+}
+.nav-sec ul {
+	width: 100%;
+}
+.nav-sec ul li {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 8px;
+	border-right: 1px solid #202340;
+	padding: ;
+}
+.nav-sec ul li a:first-child {
+	padding-left: 0;
+}
+
+.nav-sec ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-sec ul li ul {
+    position: absolute;
+    display: none;
+    z-index: 999999;
+    padding: 0;
+    height: 0px;
+    transition: height 2s;
+    left: 0;
+    top: 40px;
+    width: 230px;
+}
+.nav-sec ul li:hover > ul{
+	display: block;
+	
+
+}
+.nav-sec ul li:hover{
+	background-color: #2E3796;
+	transition: background 1s;
+}
+.nav-sec ul li ul li {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background: #0099CB;
+    text-align: left;
+    border-right: none;
+    font-size: 14px;
+    padding: 5px;
+}
+.cret {
+    font-size: 21px;
+    color: #202340;
+    margin-top: 0;
+    position: absolute;
+    right: 10px;
+}
+.nav-sec ul li ul li a {
+	margin-left: 2%;
+}
+.nav-sec ul li ul li a i {
+	margin-left: 144px;
+	font-size: 21px;
+	color: #202340;
+	margin-top: -22px;
+	float: left;
+}
+
+.nav-sec ul li ul li ul {
+	z-index: 999990;
+	margin-left: 100%;
+	margin-top: -18%;
+	width: 100%;
+}
+
+.notic {
+	background-color: #4753A2;
+	border-radius: 25px;
+	margin-top: 12px;
+	height: 30px;
+}
+.notic-l {
+	float: left;
+	width: 16%;
+}
+.notic-l h4 {
+	font-size: 16px;
+	margin-top: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+.notic-R {
+	float: left;
+}
+.notic-R marquee {
+	color: #fff;
+}
+.slider_sec {
+	
+	padding: 0;
+}
+.side {
+	float: left;
+	width: 85%;
+	padding: 0;
+	margin-left: -15.8%;
+	margin-right: 0;
+}
+.side-menu {
+	width: 100%;
+}
+.side-menu ul {
+	padding: 5px;
+	background-color: #2C3A92;
+	border-radius: 25px;
+	margin-top: 5%;
+	width: 85%;
+}
+.side-menu ul li {
+	display: block;
+	margin-left: 4.7px;
+	position: relative;
+	margin-top: 8px;
+	background-image: url(../Image/lmenu_nbg.jpg);
+	background-repeat: no-repeat;
+}
+
+.side-menu ul li a {
+	display: block;
+	text-decoration: none;
+	border: #2F2D2E;
+	padding: 8px 20px 4px 20px;
+	-moz-transition: .75s;
+	color: #fff;
+	border-left: 1px solid #6F4B5C;
+	margin-top: -5px;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+.side-menu ul li a:hover{
+	background-color: #0099CB;
+}
+.side-menu ul li ul {
+	position: absolute;
+	z-index: 9999;
+	background-color: #2C3A92;
+	width: 100%;
+    display: none;
+}
+.side-menu ul li:hover > ul{
+	left: 199px;
+	display: block;
+}
+
+.side-menu ul li ul {
+	margin-top: -32px;
+	margin-left: 34px;
+	border-radius: 0;
+	z-index: 999998;
+}
+.side-menu ul li ul li {
+	background-image: none;
+	margin-left: 0%;
+	margin: 0;
+	padding: 0;
+	margin-left: -5px;
+	margin-top: 0px;
+	width: 104.5%;
+	border-bottom: none;
+}
+.side-menu ul li ul li:last-child{
+	border-bottom: 1px solid #898989;
+	margin-bottom: -5px;
+}
+.side-menu ul li ul li ul {
+	margin-left: 12%;
+
+	margin-top: -16%;
+}
+.side-menu ul li ul li a {
+    padding-bottom: 3px;
+    border: .5px solid #898989;
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+.side-menu ul ul li a:hover{
+	background-color: #0099CB;
+	/*display: block;*/
+}
+.side-menu ul li ul li a i {
+	margin-left: 190px;
+}
+
+.side-menu ul li a:first-child{
+	border-left: none;
+}
+.side-menu ul li ul li ul li ul {
+	margin-left: 12%;
+	margin-top: -16%;
+}
+
+
+.slider {
+
+	padding: 0;
+	margin-left: -3%;
+}
+.side-menu2 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 87%;
+}
+.side-menu3 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 87%;
+	margin-top: 5%;
+}
+.side-menu4{
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 87%;
+	margin-top: 5%;
+}
+.side-menu2 h2, .side-menu3 h2, .side-menu4 h2, .side_right h2, .side_right1 h2, .side_right2 h2, .side_right3 h2 {
+	background-color: #2C3A92;
+	border-radius: 16px 16px 0 0;
+	font-size: 16px;
+	padding-left: 11%;
+	color: #fff;
+	padding: 4% 10% 4% 15%;
+	font-weight: bold;
+}
+.side-menu2 ul,.side-menu3 ul{
+	list-style: square;
+}
+.side-menu4 ul {
+	/* list-style: square; */
+	list-style: none;
+	padding: 0px;
+}
+.side-menu2 ul li, .side-menu3 ul li {
+	margin-left: -8%;
+}
+.side-menu4 ul li {
+	margin-left: -15%;
+	padding: 4px 0;
+}
+.side-menu2 ul li a,.side-menu3 ul li a {
+	font-size: 15px;
+	cursor: pointer;
+	/* line-height: 2; */
+	color: #35322f;
+	/* font-family: sens inherit; */
+}
+.slider_sec2 {
+	float: left;
+	width: 74%;
+	margin-top: 1%;
+	padding: 0;
+}.pic1 {
+	width: 100%;
+}
+.pic2 {
+	width: 100%;
+	padding: 2%;
+}
+
+.pic2 img {
+	margin: 0px;
+	width: 100%;
+  }
+.content {
+	margin-top: 3%;
+}
+.content1, 
+.history_content, 
+.galance_content, 
+.govorning_content, 
+.location_content, .Disciplin_content, 
+.uniform_content, .tution_content, 
+.examination_content, .fine_content, 
+.payment_content, .training_content, 
+.Annual_Sports_content, 
+.prize_giving_content, .milad_content, 
+.special_days_content, 
+.inter_competition_content, .notic_content, 
+.tender_content, 
+.primary_content, .jsc_content, .ssc_content, 
+.hsc_content, .scholarship_primary_content, 
+.scholarship_Junior_content, 
+.admission_process_content, 
+.admission_circular_content,
+.admission_rules_content,.admission_results_ban_content, 
+.admission_results_eng_content,
+.admission_form_ban_content,
+.admission_form_eng_content,.clg_sec_content,.pri_level_content
+,.scl_level_content,.bncc_content,.H_act_content,.Air_scout_content
+,.cm_content,.band_content,.dance_content,.singer_content
+,.magazine_content,.canteen_content,.book_stall_content
+,.library_content,.staipend_content,.contact_content
+,.principle_speech_content,.principle_mail_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -6%;
+	width: 100%;
+}
+.content1 h2, .home_content h2, 
+.history_content h2, .galance_content h2,
+ .govorning_content h2, .principle_content h2,
+ .location_content h2, .teaching_content h2,
+  .clg_content h2, .rules_content h2, 
+  .Disciplin_content h2, .uniform_content h2,
+  .tution_content h2,.examination_content h2,
+  .fine_content h2,.payment_content h2,
+  .event_content h2,.training_content h2,
+  .sports_content h2,.Annual_Sports_content h2,
+  .prize_giving_content h2,
+  .fresh_reciption_content h2,
+  .milad_content h2,.special_days_content h2,
+  .inter_competition_content h2,
+  .notic_content h2,.tender_content h2,
+  .stu_circulation_content h2,
+  .result_content h2,
+  .primary_content h2,
+  .jsc_content h2,
+  .ssc_content h2,.hsc_content h2,
+  .scholarship_content h2,
+  .scholarship_primary_content h2,
+  .scholarship_Junior_content h2,
+  .other_content h2,.admission_content h2,
+  .admission_process_content h2,
+  .admission_circular_content h2,
+  .admission_rules_content h2,
+  .admission_results_content h2,
+  .admission_results_ban_content h2,
+  .admission_results_eng_content h2,
+  .admission_form_content h2,
+  .admission_form_ban_content h2,
+  .admission_form_eng_content h2,.academic_content h2
+  ,.aca_calender_content h2,.scl_sec_content h2,
+  .clg_sec_content h2,.eng_ver_content h2,.cls_wsec_content h2,
+  .aca_resl_content h2,.cls_rou_content h2,.syllabus_content h2
+  ,.book_l_content h2,.opn_sub_content h2,.pri_level_content h2
+  ,.scl_level_content h2,.cls_wsec_clg_content h2,.clg_resl_content h2
+  ,.clg_syllabus_content h2,.clg_rou_content h2,.clg_book_l_content h2
+  ,.clg_opn_sub_content h2,.cls_w_secEng_content h2,
+  .eng_ver_resl_content h2,.eng_cls_rou_content h2,.eng_ver_syllabus_content h2
+ ,.eng_ver_book_content h2,.eng_ver_opn_sub_content h2
+ ,.co_act_content h2,.bncc_content h2,.H_act_content h2
+  ,.Air_scout_content h2,.girl_guide_content h2,.rover_content h2
+  ,.cm_content h2,.db_cl_content h2,.sc_cl_content h2
+  ,.qz_cl_content h2,.game_content h2,.band_content h2
+ ,.dance_content h2,.singer_content h2 ,.magazine_content h2
+ ,.wall_magazine_content h2,.facility_content h2,.primary_aid_content h2
+ ,.sprt_fac_content h2,.song_dance_content h2,.canteen_content h2
+ ,.book_stall_content h2,.library_content h2,.staipend_content h2
+ ,.housing_content h2,.contact_content h2,.glry_content h2
+ ,.principle_mail_content h2,.latest_news1_content h2
+ ,.event_content h2,.home_content h2,.job_circulation_content h2
+ {
+	background-color: #1AA3D1;
+	border-radius: 16px 16px 0 0;
+	font-size: 24px;
+	padding: 10px 0px 10px 24px;
+	color: #fff;
+	/* margin-left: -3%; */
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.principle_mail_content label {
+	margin-left: 10%;
+	width: 20%;
+	text-align: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.principle_mail_content input {
+	width: 60%;
+	padding: 3px;
+}
+.principle_mail_content select {
+	width: 60%;
+	padding: 3px;
+}
+.principle_mail_content textarea {
+	width: 60%;
+}
+.principle_mail_content button {
+	/*margin-left: 31%;*/
+	margin-right: \\;
+}
+.buton {
+	padding-bottom: 12%;
+	padding-top: 3%;
+}
+.button1 {
+	margin-left: 30.5%;
+}
+.notic_content p, .bncc_content p,.H_act_content p
+ {
+	font-size: 18px;
+	padding: 2%;
+	color: #000;
+	text-align: justify;
+}
+.Annual_Sports_content h3,
+.prize_giving_content h3,
+.milad_content h3,.special_days_content h3,
+.inter_competition_content h3
+ {
+	font-size: 18px;
+	margin-left: 3%;
+	color: #002FFF;
+}
+.Annual_Sports_content p,
+.prize_giving_content p,
+.milad_content p,.special_days_content p,
+.inter_competition_content p,.cm_content p,.band_content p
+,.dance_content p,.singer_content p,.magazine_content p
+,.canteen_content p,.book_stall_content p,.library_content p
+,.principle_speech_content p {
+	padding: 2%;
+	font-size: 17px;
+	text-align: justify;
+}
+.Annual_Sports_content span,.prize_giving_content span {
+	color: #FF5D00;
+}
+.Annual_Sports_content img,
+ .prize_giving_content img,
+  .milad_content img, 
+  .special_days_content img, 
+  .inter_competition_content img, 
+  .primary_content img, 
+  .jsc_content img, 
+  .ssc_content img, 
+  .hsc_content img,
+  .scholarship_primary_content img,
+  .scholarship_Junior_content img,
+  .admission_process_content img,
+  .admission_circular_content img,.H_act_content img
+  ,.Air_scout_content img,.cm_content img,.band_content img 
+  ,.magazine_content img{
+	padding: 1%;
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 4%;
+	background: #f6e8e8;
+	border: 1px solid;
+}
+.principle_speech_content img{
+	padding: 1%;
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 4%;
+	/*background: #f6e8e8;*/
+	border: 1px solid;
+}
+.principle_speech_content h3 {
+	font-size: 16px;
+	margin-left: 2%;
+}
+.principle_speech_content h4 {
+	font-size: 16px;
+	margin-left: 2%;
+	margin-top: 3%;
+}.pic3 {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 7%;
+}
+.contact_content img{
+	padding: 1%;
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 4%;
+}
+/*.admission_process_content img,
+ {
+	width: 100%;
+	padding: 1%;
+}*/
+.training_content h3 {
+	font-family: SolaimanLipi;
+	padding: 2%;
+	font-size: 22px;
+}
+.training_content p {
+	padding-left: 2%;
+	font-size: 16px;
+	margin-top: -1%;
+	font-family: solmainlipi;
+}
+.payment_content a {
+	margin-left: 3%;
+	margin-top:  !important;
+	color: #5568C3;
+}
+.fine_content p,.examination_content p {
+	padding: 0 2%;
+	margin: 5px;
+}
+/*table, th, td {
+   border: 1px solid black;
+}*/
+.tb, .tb1 {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+}
+.table {
+	width: 96%;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	background-color: transparent;
+}
+.table td, .table th {
+	 padding:0;
+	/* vertical-align: top; */
+	border-top: 1px solid #dee2e6;
+}
+.tb th {
+	text-align: center;
+	color: #000;
+}
+.tb td, .tb th {
+	/* padding: .75rem; */
+	/* vertical-align: top; */
+	border: 1px solid #919da8;
+	font-family: "Shonar Bangla", sans-serif;
+	/* font-weight: bold; */
+	color: #633693;
+	font-size: 20px;
+}
+.tbl{}
+.tbl th {
+	/* border-collapse: collapse; */
+	border: 1px solid;
+	/* padding: 0% 6%; */
+	padding: 7% 5%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+.tbl td {
+	border: 1px solid;
+	padding: 7% 3%;
+}
+.tbl {
+	width: 50%;
+	margin-left: 6%;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.tb1_data1{}
+.tb1_data2{}
+.tb1_data2 a {
+	font-size: 14px;
+	color: black;
+	margin-left: 8%;
+}
+.tb1_data3 {
+	text-align: center;
+	font-size: 14px;
+}
+.tb1_data3 a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+.tb1_data1{}
+.t_data1{}
+.t_data2{}
+.t_data2 a {
+	font-size: 20px;
+	padding: 4px;
+}
+.t_data3 {
+	text-align: center;
+	/* padding: 0; */
+}
+.t_data3 a {
+	font-size: 20px;
+	/* text-align: center; */
+	/* padding: 0; */
+	/* margin: 0; */
+}
+.tb1 {
+	margin-left: 18%;
+}
+.uniform_content h3 {
+	padding: 4% 4% 0 4%;
+	/* border-bottom: 2px solid; */
+}
+.uniform_content label {
+	padding-left: 5%;
+	font-size: 22px;
+	color: blue;
+	font-weight: bold;
+	margin-top: 0;
+	float: left;
+}
+.uniform_content p {
+	padding-left: 18%;
+	font-size: 20px;
+	padding-right: 1.4%;
+	/* margin-top: 2%; */
+}
+.Disciplin_content h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0000FF;
+	padding: 2%;
+}
+.Disciplin_content p {
+	/* padding: 0% 2%; */
+	font-size: 20px;
+	/* letter-spacing: 3px; */
+	word-spacing: 3px;
+	padding: 0% 2%;
+}
+.galance_content img,.govorning_content img {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.content1 p,.history_content p {
+	margin: 2%;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 22px;
+}
+.content1 img {
+  border-radius: 7px 0;
+  margin-left: 21%;
+  width: 60%;
+}
+.pic2 img {
+	margin: 0px;
+	width: 100%;
+  }
+
+
+  .content1 a {
+	background: #1AA3D1;
+	padding: 10px 20px;
+	border-radius: 20px ;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+  }
+  
+  .mb-3.alumnai_title {
+  margin: 7px 0 !important;
+}
+  
+  
+.location_content label {
+	font-size: 26px;
+	margin-left: 2%;
+	color: #0000FF;
+	font-weight: bold;
+}
+.location_content h4 {
+	margin-left: 2%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.location_content p {
+	margin-left: 2%;
+	margin-top: 0%;
+}
+.home_content, .principle_content, 
+.teaching_content, .rules_content, 
+.payment_content,.event_content,
+.sports_content,.fresh_reciption_content,
+.result_content,.scholarship_content,
+.other_content,.admission_content,
+.admission_results_content,
+.admission_form_content,.academic_content,
+.aca_calender_content,.scl_sec_content,.eng_ver_content 
+,.cls_wsec_content,.aca_resl_content,.cls_rou_content
+,.syllabus_content,.book_l_content,.opn_sub_content
+,.cls_wsec_clg_content,.clg_resl_content,.clg_syllabus_content
+,.clg_rou_content,.clg_book_l_content,.clg_opn_sub_content
+,.cls_w_secEng_content,.eng_ver_resl_content,.eng_cls_rou_content
+,.eng_ver_syllabus_content,.eng_ver_book_content,.eng_ver_opn_sub_content
+,.co_act_content,.girl_guide_content,.rover_content
+,.db_cl_content,.sc_cl_content,.qz_cl_content,.game_content
+,.wall_magazine_content,.facility_content,.primary_aid_content
+,.sprt_fac_content,.song_dance_content,.staipend_content
+,.housing_content,.latest_news1_content,.event_content
+,.home_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -48px;
+	height: 460px;
+}
+.notic_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -6%;
+	width: 100%;
+}
+.tender_content, .stu_circulation_content, .job_circulation_content {
+	float: left;
+	margin-top: 5%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -2%;
+	width: 100%;
+}
+.content_right {
+	float: left;
+	margin-top: 1.4%;
+	padding: 0;
+	margin-right: 0;
+}
+
+.clg_content,.glry_content {
+	margin-left: -1%;
+	margin-top: 1%;
+	float: left;
+	width: 77%;
+	border: 1px solid #D2BCBC;
+	padding: 0;
+	border-radius: 16px;
+}
+.glry_content{
+	height: 200px;
+}
+.t_detail {
+	width: 100%;
+}
+.t_img,.p_img {
+	float: left;
+}
+.t_img img {
+	width: 76%;
+	margin-left: 3%;
+	border: 1px solid #E3F8F3;
+	padding: 1%;
+	box-shadow: 2px 2px 2px 2px #DDDDEF;
+	margin-bottom: 20%;
+}
+.t_img img:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p_img img {
+	width: 85%;
+	margin-left: 8%;
+	border: 1px solid #E3F8F3;
+	padding: 0.5%;
+	box-shadow: 2px 1px 2px 1px #DDDDEF;
+	margin-bottom: 20%;
+	height: 215px;
+}
+.p_img img:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.t_img h2 {
+	background: none;
+	color: #000;
+	font-size: 15px;
+	margin-left: -5%;
+	margin-top: -16%;
+}
+.Page{}
+.Page ul{}
+.Page ul li{}
+.Page ul li a{}
+.Page{}
+.pagination {
+	display: -ms-flexbox;
+	display: flex;
+	/* padding-left: 0; */
+	list-style: none;
+	border-radius: .25rem;
+	margin-left: 32%;
+}
+.pagination1{
+	margin-left: 27%;
+}
+.pagination2 {
+	margin-left: 32%;
+}
+.side_right, .side_right1, .side_right2, .side_right3 {
+	float: left;
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 130%;
+	margin-top: 2%;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: 0;
+}
+.side_right h2{}
+.side_right ul {
+	list-style: square;
+	margin: 0%;
+}.side_right ul li{}
+.side_right ul li a {
+	color: #35322f;
+  }
+.side_right1 p, .side_right2 p, .side_right3 p {
+	padding: 12% 4%;
+	margin-left: 6%;
+	text-align: justify;
+}
+.side_right1 a, .side_right2 a, .side_right3 a {
+	color: #35322f;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: justify;
+	text-decoration: none;
+  }
+
+.footer {
+	clear: both;
+	/*margin-left: -15px;*/
+	background: #0099CB;
+	width: 100%;
+	height: 78px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 24%;
+	
+}
+
+p.copyright {
+    text-align: center;
+		font-family: "Aladin",cursive;
+		font-size: 22px;
+    color: white;
+    padding-top: 1em !important;
+}
+	
+h3.developer {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+
+
+/* slider*/
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: center;
+	width: 100%;
+	}
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.bx-wrapper {
+	position: relative;
+	margin-bottom: -29px;
+	padding: 0;
+	*zoom: 1;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+}
+
+.pic7{
+	width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+
+.nav-sec ul {
+	width: 100%;
+}
+.nav-sec ul li {
+	/*position: relative;*/
+	display: block;
+	float: none;
+	padding: 1%;
+	margin-left: -8%;
+	border-bottom: 1px solid #202340;
+}
+.nav-sec ul li ul {
+    position: absolute;
+    /*display: none;*/
+    z-index: 999999;
+    padding: 0;
+    height: 0px;
+    transition: height 2s;
+    left: 0;
+    top: 40px;
+    width: 230px;
+}
+.nav-sec ul li:hover > ul{
+	display: block;
+	
+}
+
+
+.nav-sec ul li a {
+	font-size: 14px;
+}
+.nav-sec ul li ul {
+	/*position: absolute;*/
+	/*display: none;*/
+	z-index: 999999;
+	padding: 0;
+	margin-top: -7%;
+	margin-left: 42%;
+	width: 200px !important;
+}
+.nav-sec ul li ul li{}
+.nav-sec ul li ul li ul {
+	margin-left: 108%;
+	margin-top: -20%;
+}
+.nav-sec ul li ul li ul li {
+	width: 238%;
+}
+.nav-sec ul li ul li ul li a{}
+.head {
+	background: linear-gradient( #FFFFFF,#F5F2F3);
+	/* height: 130px; */
+	/* margin-left: 16%; */
+}
+.logo h2 {
+	margin-left: 14%;
+	margin-top: 10%;
+	font-size: 18px;
+}
+.logo img {
+	float: left;
+	margin-left: -1%;
+	margin-right: 2%;
+	margin-top: 0;
+	padding-left: 0;
+	transform: scale(1.3);
+	width: 17%;
+  }
+
+.socail-logo ul {
+	margin-left: auto;
+	margin-top: 3%;
+}
+.socail-logo ul li {
+	float: left;
+	list-style: none;
+	margin-top: 29%;
+	width: 51%;
+	margin-left: -1%;
+}
+.navigation {
+	background: #0099CB;
+	color: #fff;
+	min-height: 25px;
+	/* padding: 0; */
+	margin-left: 0px;
+}
+
+.navigation-top {
+	margin-left: 0%;
+	/* width: 82%; */
+}
+.navigation ul li {
+	display: block;
+	float: left;
+	margin-left: 1.5px;
+	position: relative;
+	border-right: 1px solid #347597;
+	margin-top: -4px;
+	transition: height 2s;
+}
+.navigation ul li a {
+	display: block;
+	text-decoration: none;
+	/* background: #17E86C; */
+	border: #2F2D2E;
+	padding: 7px 0px;
+	/* margin: -2px; */
+	-moz-transition: .75s;
+	color: #fff;
+	border-left: 1px solid #6F4B5C;
+	margin-top: -5px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.notic {
+	background-color: #4753A2;
+	border-radius: 25px;
+	margin-top: 12px;
+	/* width: 70.5%; */
+	/* margin-left: 15%; */
+	height: 30px;
+}
+.notic-l h4 {
+	font-size: 14px;
+	margin-top: 7px;
+	/* width: 28%; */
+	color: #fff;
+	font-weight: bold;
+}
+.notic-l {
+	float: left;
+	width: 27%;
+}
+
+.notic-R {
+	float: left;
+	width: 72%;
+}
+.side-menu2,.side-menu3,.side-menu4 {
+	width: 100%;
+}
+.side-menu ul {
+	padding: 5px;
+	background-color: #2C3A92;
+	border-radius: 25px;
+	margin-top: 5%;
+	width: 100%;
+}
+.side-menu ul li a {
+    display: block;
+    text-decoration: none;
+    border: #2F2D2E;
+    padding: 6px 0px 12px 10px;
+    -moz-transition: .75s;
+    color: #fff;
+    margin-top: -5px;
+    font-size: 13px;
+    text-align: left;
+}
+.side-menu ul li ul {
+    margin-top: -38px;
+    margin-left: -69%;
+    border-radius: 0;
+    width: 160px;
+}
+.side-menu ul li ul li {
+	    width: 160px;
+    padding: 2px;
+    text-align: center;
+}
+.side-menu ul li ul li ul {
+    margin-top: -21%;
+    /* position: absolute; */
+    margin-left: -39px;
+}
+.side-menu ul li ul li a {
+	font-size: 12px;
+	padding: 5px 0px 6px 6px;
+}
+.side-menu ul li ul li a i {
+    margin-top: -1px;
+    position: absolute;
+    right: 5px;
+}
+.side-menu ul li ul li ul li ul {
+    margin-left: -24%;
+    margin-top: -22%;
+}
+.side {
+	float: left;
+	width: 24%;
+	padding: 0;
+	margin-left: -24%;
+}
+.slider_sec2 {
+	float: left;
+	margin-left: 3%;
+	width: 70%;
+}
+.side_right1 p, .side_right2 p, .side_right3 p {
+	padding: 12% 5% 2% 2%;
+}
+.slider {
+	/* float: right; */
+	margin-top: 2%;
+	width: 100%;
+	/* margin: 0; */
+	padding: 0;
+	margin-left: -2%;
+}
+.pic1 {
+	width: 100%;
+	margin-left: 2%;
+}
+.content1, .home_content, .history_content, .galance_content, .govorning_content, .principle_content, .location_content, .teaching_content, .examination_content, .fine_content, .payment_content, .Annual_Sports_content, .prize_giving_content, .milad_content, .special_days_content, .notic_content, .primary_content, .ssc_content, .hsc_content, .scholarship_content, .scholarship_Junior_content, .admission_content {
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -2%;
+	width: 64%;
+}
+.training_content h3 {
+	font-family: SolaimanLipi;
+	padding: 2%;
+	font-size: 18px;
+	color: #2C3A92;
+}
+.training_content p {
+	padding-left: 2%;
+	font-size: 14px;
+	margin-top: -1%;
+	font-family: solmainlipi;
+	padding-right: 1%;
+}
+.fine_content p{}
+.content1 p, .history_content p, .bncc_content p {
+	margin: 2%;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 16px;
+}
+#coin-slider a img{
+	
+}
+.location_content label {
+	font-size: 18px;
+	margin-left: 4%;
+	color: #0000FF;
+	font-weight: bold;
+}
+.location_content h4 {
+	margin-left: 4%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.location_content p {
+	margin-left: 4%;
+	margin-top: 0%;
+	font-size: 14px;
+}
+.side_right, .side_right1, .side_right2, .side_right3 {
+	float: left;
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 123%;
+	margin-top: 2%;
+	padding: 0;
+	margin-left: 3%;
+	margin-right: 0;
+}
+.content {
+	padding: 0;
+	margin-top: 8%;
+}
+.content1, .history_content, 
+.galance_content, .govorning_content, 
+.location_content, .Disciplin_content, 
+.uniform_content, .tution_content, 
+.examination_content, .fine_content, 
+.payment_content, .training_content, 
+.Annual_Sports_content, 
+.prize_giving_content, .milad_content, 
+.special_days_content, 
+.inter_competition_content, .notic_content, 
+
+.primary_content, .jsc_content, .ssc_content, 
+.hsc_content, .scholarship_primary_content, 
+.scholarship_Junior_content, 
+.admission_process_content, 
+.admission_circular_content,
+.admission_rules_content,
+.admission_results_content,
+.admission_results_ban_content,
+.admission_results_eng_content,
+.admission_form_content,
+.admission_form_ban_content,
+.admission_form_eng_content,.academic_content,
+.aca_calender_content,.scl_sec_content,.clg_sec_content
+,.eng_ver_content,.cls_wsec_content,.aca_resl_content
+ ,.cls_rou_content,.syllabus_content,.book_l_content,
+ .opn_sub_content,.pri_level_content,.scl_level_content
+ ,.cls_wsec_clg_content,.clg_resl_content,.clg_syllabus_content
+ ,.clg_rou_content,.clg_book_l_content,.clg_opn_sub_content
+,.cls_w_secEng_content,.eng_ver_resl_content,.eng_cls_rou_content
+,.eng_ver_syllabus_content,.eng_ver_book_content,.eng_ver_opn_sub_content
+ ,.co_act_content,.bncc_content,.H_act_content,.Air_scout_content
+,.girl_guide_content,.rover_content,.cm_content,.db_cl_content
+ ,.sc_cl_content,.qz_cl_content,.game_content,.band_content 
+,.dance_content,.singer_content ,
+.magazine_content,.wall_magazine_content,.facility_content
+,.primary_aid_content,.sprt_fac_content,.song_dance_content
+,.canteen_content,.book_stall_content,.library_content
+,.staipend_content,.housing_content,.contact_content
+,.principle_speech_content,.principle_mail_content
+,.latest_news1_content,.rules_content,.event_content
+,.result_content,.payment_content,.sports_content
+,.fresh_reciption_content,.other_content,.admission_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -3%;
+	width: 71%;
+}
+
+
+.content1 h2, .home_content h2,
+.history_content h2, .galance_content h2,
+.govorning_content h2, .principle_content h2,
+.location_content h2, .teaching_content h2,
+.clg_content h2, .rules_content h2,
+.Disciplin_content h2, .uniform_content h2, 
+.tution_content h2, .examination_content h2, 
+.fine_content h2, .payment_content h2, 
+.event_content h2, .training_content h2, 
+.sports_content h2, .Annual_Sports_content h2, 
+.prize_giving_content h2, .fresh_reciption_content h2,
+.milad_content h2, .special_days_content h2, 
+.inter_competition_content h2, 
+.notic_content h2, .tender_content h2, 
+.stu_circulation_content h2,
+.result_content h2,
+.primary_content h2,
+.jsc_content h2,
+.ssc_content h2,.hsc_content h2,
+.scholarship_content h2,
+.scholarship_primary_contenth2 h2,
+.scholarship_Junior_content h2,
+.other_content h2,.admission_content h2,
+.admission_process_content h2,
+.admission_circular_content h2,
+.admission_rules_content h2,
+.admission_results_content h2.
+.admission_results_ban_content h2,
+.admission_results_eng_content h2,
+.admission_form_content h2,
+.admission_form_ban_content h2,
+.admission_form_eng_content h2,
+.academic_content h2,.aca_calender_content h2,
+.scl_sec_content h2,.clg_sec_content h2,.eng_ver_content h2
+,.cls_wsec_content h2,.aca_resl_content h2,.cls_rou_content h2
+,.syllabus_content h2,.book_l_content h2,.opn_sub_content h2
+ ,.pri_level_content h2,.scl_level_content h2,.cls_wsec_clg_content h2
+,.clg_resl_content h2,.clg_syllabus_content h2,.clg_rou_content h2 
+,.clg_book_l_content h2,.clg_opn_sub_content h2,.cls_w_secEng_content h2
+,.eng_ver_resl_content h2,.eng_cls_rou_content h2,.eng_ver_syllabus_content h2
+,.eng_ver_book_content h2,.eng_ver_opn_sub_content h2
+,.co_act_content h2,.bncc_content h2,.H_act_content h2
+,.Air_scout_content h2,.girl_guide_content h2,.rover_content h2
+,.cm_content h2,.db_cl_content h2,.sc_cl_content h2
+,.qz_cl_content h2,.game_content h2,.band_content h2
+,.dance_content h2,.singer_content h2,.magazine_content h2
+,.wall_magazine_content h2,.facility_content h2,.primary_aid_content h2
+,.sprt_fac_content h2,.song_dance_content h2,.canteen_content h2
+,.book_stall_content h2,.library_content h2,.staipend_content h2
+,.housing_content h2,.contact_content h2,.principle_mail_content h2
+,.latest_news1_content h2,,.rules_content h2,.event_content h2
+,.result_content h2,.payment_content h2,.sports_content h2
+,.fresh_reciption_content h2,.other_content h2,.job_circulation_content h2
+{
+	background-color: #1AA3D1;
+	border-radius: 16px 16px 0 0;
+	font-size: 16px;
+	padding: 10px 0px 10px 8px;
+	color: #fff;
+	/* margin-left: -3%; */
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.principle_mail_content label {
+	margin-left: -7px;
+	width: 44%;
+	text-align: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.principle_mail_content input, .principle_mail_content select {
+	padding: 0px;
+	width: 53%;
+}
+.principle_mail_content textarea {
+	width: 55%;
+}
+.button1{
+	margin-left: 43.5%;
+	padding: 1%;
+}
+.button2{
+	padding: 1%;
+}
+.Disciplin_content h1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+	padding: 1% 3%;
+}
+.Disciplin_content p {
+	/* padding: 0% 2%; */
+	font-size: 16px;
+	/* letter-spacing: 3px; */
+	word-spacing: 3px;
+	padding: 0% 3%;
+	text-align: justify;
+}
+.uniform_content h3 {
+	padding: 4% 4% 0 4%;
+	/* border-bottom: 2px solid; */
+	font-size: 14px;
+}
+.uniform_content label {
+	padding-left: 4%;
+	font-size: 16px;
+	color: blue;
+	font-weight: bold;
+	margin-top: 0;
+	float: left;
+}
+.uniform_content p {
+	padding-left: 18%;
+	font-size: 16px;
+	padding-right: 2.4%;
+	/* margin-top: 2%; */
+	text-align: justify;
+}
+.notic_content p,.H_act_content p {
+	font-size: 12px;
+	padding: 2%;
+	color: #000;
+	text-align: justify;
+}
+.Annual_Sports_content h3,
+.prize_giving_content h3,
+.milad_content h3,.special_days_content h3,
+.inter_competition_content h3 {
+	font-size: 12px;
+}
+.Annual_Sports_content p,
+.prize_giving_content p,
+.milad_content p,.special_days_content p,
+.inter_competition_content p,.cm_content p,.band_content p
+,.dance_content p,.singer_content p,.magazine_content p
+,.facility_content p,.canteen_content p,.book_stall_content p
+,.library_content p,.principle_speech_content p {
+	font-size: 14px;
+}
+.Annual_Sports_content img{}
+.examination_content p{}
+
+.side-menu4 ul li {
+	margin-left: -35%;
+	padding: 4px 0;
+}
+.t_data2 a {
+	font-size: 16px;
+}
+.t_data1 {
+	font-size: 15px;
+}
+.t_data3 a {
+	font-size: 16px;
+	/* text-align: center; */
+	/* padding: 0; */
+	/* margin: 0; */
+}
+.notic_content {
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -3%;
+	width: 70%;
+}
+.tender_content,.stu_circulation_content ,.job_circulation_content
+{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -2%;
+	width: 100%;
+}
+.tb td, .tb th {
+	/* padding: .75rem; */
+	/* vertical-align: top; */
+	border: 1px solid #919da8;
+	font-family: "Shonar Bangla", sans-serif;
+	/* font-weight: bold; */
+	color: #633693;
+	font-size: 16px;
+}
+.tb1 {
+	margin-left: 2%;
+}
+.tbl {
+	width: 85%;
+	margin-left: 6%;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.tb1_data2 a {
+	font-size: 14px;
+	color: black;
+	margin-left: -3%;
+}
+.tbl th {
+	/* border-collapse: collapse; */
+	border: 1px solid;
+	/* padding: 0% 6%; */
+	padding: 7% 0%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+.side-menu2 h2, .side-menu3 h2, .side-menu4 h2, .side_right h2, .side_right1 h2, .side_right2 h2, .side_right3 h2 {
+	background-color: #2C3A92;
+    border-radius: 16px 16px 0 0;
+    font-size: 17px;
+    padding-left: 10%;
+    color: #fff;
+    padding: 4% 10% 4% 10%;
+    font-weight: bold;
+}
+.side_right img {
+	width: 80%;
+	margin-left: 8%;
+}
+.side_right ul {
+	list-style: square;
+	margin-left: -8%;
+}
+.side_right ul li {
+	font-size: 14px;
+	margin-left: -13%;
+}
+.side_right1 a, .side_right2 a, .side_right3 a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: justify;
+}
+.side-menu2 ul li, .side-menu3 ul li {
+	margin-left: -18%;
+}
+.side-menu2 ul li a, .side-menu3 ul li a {
+	font-size: 15px;
+	cursor: pointer;
+	line-height: 0px;
+	color: #35322f;
+	/* font-family: sens inherit; */
+	line-height: -5px;
+	/* margin-bottom: -8%; */
+}
+
+.clg_content,.glry_content {
+	margin-left: 1%;
+	margin-top: 1%;
+	float: left;
+	width: 73%;
+	border: 1px solid #D2BCBC;
+	padding: 0;
+	border-radius: 16px;
+}
+.t_detail {
+	width: 100%;
+}
+.t_img,.p_img {
+	float: left;
+	width: 50%;
+}
+.p_img img{
+	height: 190px;
+}
+.pagination {
+	display: -ms-flexbox;
+	display: flex;
+	/* padding-left: 0; */
+	list-style: none;
+	border-radius: .25rem;
+	margin-left: 8%;
+	/* position: relative; */
+	/* bottom: -159px; */
+	/* left: -155px; */
+	/* padding-bottom: 26px; */
+	width: 108%;
+}
+.footer {
+	clear: both;
+	/* margin-left: -15px; */
+	background: #0099CB;
+	width: 100%;
+	/* height: 78px; */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* margin-top: 29%; */
+}
+.footer_left{
+	float: left;
+}
+.footer_left p {
+	float: left;
+	text-align: center;
+	margin-left: 0%;
+	font-size: 10px;
+	/* padding: 1% 0; */
+	padding: 30px 0px;
+}
+.footer_right{
+	float: left;
+}
+.footer_right h3 {
+	/* margin-left: 55%; */
+	font-size: 14px;
+	/* padding: 30px 41px; */
+	padding-top: 30px;
+	padding-left: 92px;
+}
+/*slider*/
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+/*.container{
+	width: 500px;
+}*/
+body{
+	background-color: #2C3A92;
+}
+
+.bd {
+	background-color: #fff;
+}
+
+
+.navigation-top {
+	/* margin-left: 16%; */
+}
+
+.notic {
+	background-color: #4753A2;
+	/* border-radius: 25px; */
+	/* margin-top: 12px; */
+	/* width: 68%; */
+	/* margin-left: 16%; */
+	/* height: 30px; */
+}
+.slider_sec2 {
+	float: left;
+	/* margin-left: 1%; */
+	/* width: 47%; */
+}
+.logo {
+	float: left;
+	width: 65%;
+}
+.head {
+	background: linear-gradient( #FFFFFF,#F5F2F3);
+	/* height: 90px; */
+	/* margin-left: 16%; */
+	/* width: 68%; */
+}
+.socail-logo {
+	float: left;
+	width: 35%;
+	padding: 0;
+}
+.socail-logo ul li {
+	float: left;
+	list-style: none;
+	margin-top: 35%;
+	width: 50%;
+	/* margin-left: -1%; */
+}
+.logo h2 {
+	margin-left: 14%;
+	margin-top: 7%;
+	font-size: 16px;
+}
+.notic-l h4 {
+	font-size: 10px;
+	margin-top: 10px;
+	width: -4%;
+	color: #fff;
+	font-weight: bold;
+	padding: 0;
+}
+.socail-logo ul li a img {
+	width: 88%;
+	margin-top: -25%;
+}
+.notic-R marquee {
+	font-size: 14px;
+}
+.side {
+	float: left;
+	/* width: 20%; */
+	padding: 0;
+	margin-left: 1.5%;
+}
+.side-menu {
+	width: 100%;
+	/* margin-top: 0%; */
+	/*margin-left: -5%;*/
+}
+.side-menu2 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 100%;
+}
+.side-menu3 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 100%;
+	margin-top: 5%;
+}
+.side-menu4 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 100%;
+	margin-top: 5%;
+}
+.side-menu ul li a {
+	display: block;
+	text-decoration: none;
+	/* background: #17E86C; */
+	border: #2F2D2E;
+	padding: 13px 0px 8px 12px;
+	/* margin: -2px; */
+	-moz-transition: .75s;
+	color: #fff;
+	border-left: 1px solid #6F4B5C;
+	margin-top: -5px;
+	font-size: 12px;
+	text-align: left;
+}
+.side-menu ul li {
+	display: block;
+	/* float: left; */
+	/* margin-left: 0.7px; */
+	position: relative;
+	/* border-right: 1px solid #347597; */
+	margin-top: 10px;
+	background-image: url(../image/lmenu_nbg.jpg);
+	background-repeat: no-repeat;
+}
+.side-menu ul li: last-child{
+margin-top:5px;
+}
+.side-menu ul li ul {
+	margin-top: -41px;
+	margin-left: -58%;
+	border-radius: 0;
+	padding: 0;
+}
+.side-menu ul li ul li ul {
+	margin-left: -55%;
+	margin-top: -21%;
+}
+.side-menu ul li ul li {
+	width: 100%;
+	padding: 2px;
+	margin-left: 0px;
+	text-align: center;
+	/* background-image: url(../image/lmenu_nbg.jpg); */
+}
+.side-menu ul li ul li ul li ul {
+	margin-left: -49%;
+	margin-top: -19%;
+}
+.side-menu ul li ul li ul{}
+.side-menu ul li ul li ul li{}
+.content1, 
+.principle_content, 
+.examination_content, 
+.fine_content, 
+.payment_content, 
+.event_content, 
+.training_content, 
+.sports_content, 
+.prize_giving_content, .milad_content, 
+.special_days_content, .notic_content, 
+.result_content, 
+.primary_content, .ssc_content, 
+.hsc_content, .scholarship_content, 
+.scholarship_primary_content, 
+.scholarship_Junior_content, 
+.other_content, .admission_content,
+.admission_process_content,
+.admission_circular_content,
+.admission_rules_content,
+.admission_results_content,
+.admission_results_ban_content,
+.admission_results_eng_content,
+.admission_form_content,
+.admission_form_ban_content,
+.admission_form_eng_content,.academic_content,
+.aca_calender_content,.scl_sec_content,.clg_sec_content
+,.eng_ver_content,.cls_wsec_content,.aca_resl_content
+,.cls_rou_content,.syllabus_content,.book_l_content 
+,.opn_sub_content,.pri_level_content,.scl_level_content
+,.cls_wsec_clg_content,.clg_resl_content,.clg_syllabus_content
+,.clg_rou_content,.clg_book_l_content,.clg_opn_sub_content
+,.cls_w_secEng_content,.eng_ver_resl_content,.eng_cls_rou_content
+,.eng_ver_syllabus_content,.eng_ver_book_content,
+.co_act_content,.bncc_content,.H_act_content,.Air_scout_content
+,.girl_guide_content,.rover_content,.cm_content,
+.db_cl_content,.sc_cl_content,.qz_cl_content,.game_content
+,.band_content,.dance_content,.singer_content,.magazine_content
+,.wall_magazine_content,.facility_content,.primary_aid_content
+,.sprt_fac_content,.song_dance_content,.canteen_content
+,.book_stall_content,.library_content,.staipend_content
+,.housing_content,.contact_content
+,.principle_speech_content,.principle_mail_content
+,.latest_news1_content,.rules_content,.event_content
+,.result_content,.payment_content,.sports_content,.fresh_reciption_content
+,.home_content,.examination_content,.tution_content
+,.eng_ver_opn_sub_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: 0%;
+	width: 62%;
+}
+.uniform_content p {
+	padding-left: 5%;
+	font-size: 14px;
+	padding-right: 2.4%;
+	/* margin-top: 2%; */
+	text-align: justify;
+}
+.content1 h2, .home_content h2, .history_content h2, 
+.galance_content h2, .govorning_content h2, 
+.principle_content h2, .location_content h2, 
+.teaching_content h2,.rules_content h2, 
+.Disciplin_content h2, .uniform_content h2, 
+.tution_content h2, .examination_content h2, 
+.fine_content h2, .payment_content h2, 
+.event_content h2, .training_content h2, 
+.sports_content h2, .Annual_Sports_content h2, 
+.prize_giving_content h2, .fresh_reciption_content h2, 
+.milad_content h2, .special_days_content h2, 
+.inter_competition_content h2, 
+.notic_content h2, .tender_content h2, 
+.stu_circulation_content h2, 
+.result_content h2, .primary_content h2, 
+.jsc_content h2, .ssc_content h2, 
+.hsc_content h2, .scholarship_content h2, 
+.scholarship_primary_content h2, 
+.scholarship_Junior_content h2, 
+.other_content h2, .admission_content h2, 
+.admission_process_content h2, 
+.admission_circular_content h2, 
+.admission_rules_content h2, 
+.admission_results_content h2, 
+.admission_results_ban_content h2, 
+.admission_results_eng_content h2, 
+.admission_form_content h2, 
+.admission_form_ban_content h2, 
+.admission_form_eng_content h2,.academic_content h2 
+,.aca_calender_content h2,.scl_sec_content h2,
+.clg_sec_content h2,.eng_ver_content h2,.cls_wsec_content h2
+,.aca_resl_content h2,.cls_rou_content h2,.syllabus_content h2
+,.book_l_content h2,.opn_sub_content h2,.pri_level_content h2
+,.scl_level_content h2,.cls_wsec_clg_content h2,.clg_resl_content h2
+,.clg_syllabus_content h2,.clg_rou_content h2,.clg_book_l_content h2
+,.clg_opn_sub_content h2,.cls_w_secEng_content h2,.eng_ver_resl_content h2
+,.eng_cls_rou_content h2,.eng_ver_syllabus_content h2
+,.eng_ver_book_content h2,.eng_ver_opn_sub_content h2
+,.co_act_content h2,.bncc_content h2,.H_act_content h2
+,.Air_scout_content h2,.girl_guide_content h2,.rover_content h2
+,.cm_content h2,.db_cl_content h2,.sc_cl_content h2
+,.qz_cl_content h2,.game_content h2,.band_content h2
+,.dance_content h2,.singer_content h2,.magazine_content h2
+,.wall_magazine_content h2,.facility_content h2,.primary_aid_content h2
+,.sprt_fac_content h2,.song_dance_content h2,.canteen_content h2
+,.book_stall_content h2,.library_content h2,.staipend_content h2
+,.housing_content h2,.contact_content h2,.principle_mail_content h2
+,.latest_news1_content h2,.rules_content h2,.event_content h2
+,.result_content h2,.payment_content h2,.sports_content h2,
+.fresh_reciption_content h2,.examination_content h2
+,.job_circulation_content h2{
+	background-color: #1AA3D1;
+	border-radius: 16px 16px 0 0;
+	font-size: 18px;
+	padding: 10px 0px 10px 6px;
+	color: #fff;
+	/* margin-left: -3%; */
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.principle_mail_content label {
+	font-size: 10px;
+	margin-left: -2px;
+}
+.principle_mail_content input, .principle_mail_content select {
+	padding: 0px;
+	width: 50%;
+	margin-left: 1%;
+}
+.principle_mail_content textarea {
+	width: 51%;
+}
+.button1 {
+	font-size: 12px;
+	margin-left: 46%;
+}
+.button2{
+	font-size: 12px;
+}
+.notic_content p, .bncc_content p, .H_act_content p {
+	font-size: 12px;
+	padding: 3%;
+	color: #000;
+	text-align: justify;
+}
+.training_content h3 {
+	font-family: SolaimanLipi;
+	padding: 2%;
+	font-size: 16px;
+	color: #2C3A92;
+}
+.govorning_content h2,
+.principle_content h2,.teaching_content h2,
+.fine_content h2 {
+	background-color: #1AA3D1;
+	border-radius: 16px 16px 0 0;
+	font-size: 16px;
+	padding: 10px 0px 10px 10px;
+	color: #fff;
+	/* margin-left: -3%; */
+	text-align: left;
+}
+.content1, .history_content, .galance_content,
+ .govorning_content, .location_content,
+  .Disciplin_content, .uniform_content,
+   .tution_content,.Annual_Sports_content,
+   .fresh_reciption_content ,
+   .inter_competition_content,.jsc_content,
+   .academic_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: 0%;
+	width: 60%;
+}
+.Annual_Sports_content h3,
+.prize_giving_content h3,
+.milad_content h3,.special_days_content h3,
+.inter_competition_content h3 {
+	font-size: 10px;
+	padding: none;
+	margin: none;
+	margin-left: 10%;
+}
+.Annual_Sports_content p,
+.prize_giving_content p,
+.milad_content p,.special_days_content p,
+.inter_competition_content p,.cm_content p,.band_content p 
+,.dance_content p,.singer_content p,.magazine_content p 
+,.facility_content p,.canteen_content p,.book_stall_content p
+,.library_content p,.principle_speech_content p{
+	font-size: 12px;
+}
+.Annual_Sports_content img{}
+.tb {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	font-size: 14px;
+}
+.notic_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -6%;
+	width: 100%;
+}
+.tender_content,.job_circulation_content,.stu_circulation_content {
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -1%;
+	width: 100%;
+}
+.tb td, .tb th {
+	/* padding: .75rem; */
+	/* vertical-align: top; */
+	border: 1px solid #919da8;
+	font-family: "Shonar Bangla", sans-serif;
+	/* font-weight: bold; */
+	color: #633693;
+	font-size: 13px;
+}
+.t_data2 a {
+	font-size: 14px;
+}
+.tbl th {
+	/* border-collapse: collapse; */
+	border: 1px solid;
+	/* padding: 0% 6%; */
+	padding: 2% 0%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+.tb1_data2 a {
+	font-size: 14px;
+	color: black;
+	margin-left: -8%;
+}
+.content_right {
+	float: left;
+	margin-top: 1.4%;
+	padding: 0;
+	margin-right: 0;
+	width: 25%;
+}
+.side_right, .side_right1, .side_right2, .side_right3 {
+	float: left;
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 145%;
+	margin-top: 2%;
+	padding: 0;
+	margin-left: 3%;
+	margin-right: 0;
+}
+.side-menu2 h2, .side-menu3 h2, .side-menu4 h2, .side_right h2, .side_right1 h2, .side_right2 h2, .side_right3 h2 {
+	background-color: #2C3A92;
+	border-radius: 16px 16px 0 0;
+	font-size: 12px;
+	/* padding-left: 11%; */
+	color: #fff;
+	padding: 1% 0%;
+	text-align: center;
+	padding: 7px 17px;
+}
+.principle_speech_content h3 {
+	font-size: 12px;
+	margin-left: 2%;
+	padding: 1%;
+}
+.principle_speech_content h4 {
+	font-size: 12px;
+	margin-left: 2%;
+	margin-top: 3%;
+	padding: 3%;
+}
+.side-menu2 ul li, .side-menu3 ul li {
+	margin-left: -20%;
+}
+.side-menu2 ul li a, .side-menu3 ul li a {
+	font-size: 12px;
+	cursor: pointer;
+	line-height: 0px;
+	color: #35322f;
+	/* font-family: sens inherit; */
+	line-height: -5px;
+	/* margin-bottom: -8%; */
+}
+.side_right ul li {
+	font-size: 12px;
+	margin-left: -3%;
+	margin-top: 5%;
+}
+.side_right1 a, .side_right2 a, .side_right3 a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: justify;
+}
+.content1 a {
+	text-align: center;
+	margin-left: 10%;
+	/* padding-bottom: 37%; */
+	/* margin-bottom: 34%; */
+}
+.side-menu4 ul li {
+	margin-left: -35%;
+	padding: 0px 0;
+	font-size: 14px;
+}
+.navigation ul li{}
+
+.Annual_Sports_content p, .prize_giving_content p, .milad_content p, .special_days_content p, .inter_competition_content p, .cm_content p, .band_content p, .dance_content p, .singer_content p, .magazine_content p, .facility_content p, .canteen_content p, .book_stall_content p, .library_content p, .principle_speech_content p {
+	font-size: 14px;
+	padding: 3%;
+}
+.Annual_Sports_content p, .prize_giving_content p, .milad_content p, .special_days_content p, .inter_competition_content p, .cm_content p, .band_content p, .dance_content p, .singer_content p, .magazine_content p, .facility_content p, .canteen_content p, .book_stall_content p, .library_content p, .principle_speech_content p {
+	font-size: 14px;
+	padding: 3%;
+}
+.clg_content, .glry_content {
+	margin-left: 1%;
+	margin-top: 1%;
+	float: left;
+	/* width: 47.5%; */
+	border: 1px solid #D2BCBC;
+	padding: 0;
+	border-radius: 16px;
+}
+.t_img h2 {
+	background: none;
+	color: #000;
+	font-size: 10px;
+	margin-left: -14%;
+}
+.p_img img {
+	height: 160px;
+	width: 100%;
+	margin-left: 0;
+}
+.pagination {
+	display: -ms-flexbox;
+	display: flex;
+	/* padding-left: 0; */
+	list-style: none;
+	border-radius: .25rem;
+	margin-left: -6%;
+	/* position: relative; */
+	/* bottom: -159px; */
+	/* left: -155px; */
+	/* padding-bottom: 26px; */
+	width: 108%;
+}
+.location_content h4 {
+	margin-left: 2%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 1%;
+}
+.location_content p {
+	margin-left: 2%;
+	margin-top: 0%;
+	font-size: 12px;
+}
+.location_content label {
+	font-size: 16px;
+	margin-left: 2%;
+	color: #0000FF;
+	font-weight: bold;
+}
+.page-link {
+	font-size: 10px;
+	padding: 14%;
+	/* margin: 0 21%; */
+	text-align: center;
+}
+.page-item {
+	width: 11%;
+}
+.page-item a{}
+.footer {
+	clear: both;
+	/* margin-left: 63px; */
+	background: #0099CB;
+	/* width: 75%; */
+	/* height: 78px; */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* margin-top: 29%; */
+}
+.footer_left{
+	float: left;
+}
+.footer_left p {
+	float: left;
+	text-align: center;
+	margin-left: 0%;
+	font-size: 9px;
+	/* padding: 1% 0; */
+	padding: 30px 0px 0px 8px;
+}
+.footer_right{
+	float: left;
+}
+.footer_right h3 {
+	margin-left: 58%;
+	font-size: 14px;
+	/* padding: 30px 50px; */
+	margin-top: -11%;
+}
+	
+p.copyright {
+    text-align: center;
+    color: white;
+    padding-top: 1em !important;
+}
+	
+h3.developer {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:481px){
+
+
+.nav-sec ul li a {
+    font-size: 10px;
+}
+
+.nav-sec {
+	padding: 0;
+	width: 80%;
+	border-right: none;
+}
+.nav-sec ul {
+	width: 125%;
+}
+.nav-sec ul li ul {
+  
+    margin-top: -8%;
+    margin-left: 37%;
+    width: 132px!important;
+}
+.notic-l {
+	float: left;
+	width: 30%;
+	padding: 0;
+	/* margin-left: 0%; */
+}
+.notic-R {
+	float: left;
+	width: 70%;
+	margin-top: 1%;
+}
+.notic-l h4 {
+	font-size: 10px;
+	margin-top: 10px;
+	width: -4%;
+	color: #fff;
+	font-weight: bold;
+	/* padding: 0; */
+	margin-left: 16%;
+}
+
+.side-menu {
+	width: 104%;
+	/* margin-top: 0%; */
+	/* margin-left: -5%; */
+}
+.side-menu2 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 104%;
+}
+.side-menu2 ul li a, .side-menu3 ul li a {
+	font-size: 12px;
+	cursor: pointer;
+	line-height: 0px;
+	color: #35322f;
+	/* font-family: sens inherit; */
+	line-height: -5px;
+	/* margin-bottom: -8%; */
+}
+.side {
+	float: left;
+	/* width: 20%; */
+	padding: 0;
+	margin-left: 0;
+}
+
+.side_right ul li {
+	font-size: 12px;
+	margin-left: -9%;
+	margin-top: 5%;
+	text-align: justify;
+}
+.side-menu ul li ul li {
+	width: 100%;
+	/* border-bottom: 1px solid #000; */
+	/* background: #0099CB; */
+	padding: 2px;
+	margin-left: auto;
+	text-align: center;
+	/* background-image: url(../image/lmenu_nbg.jpg); */
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.clg_content, .glry_content {
+	margin-left: 1.5%;
+	margin-top: 1%;
+	float: left;
+	width: 74%;
+	border: 1px solid #D2BCBC;
+	padding: 0;
+	border-radius: 16px;
+}
+.side-menu ul li ul li a {
+    font-size: 10px;
+    padding: 5px 0px 5px 9px;
+    margin-top: -2px;
+}
+.side-menu ul li ul li ul {
+	margin-left: -126%;
+}
+.content {
+	padding: 0;
+	margin-top: 8%;
+	width: 107%;
+}
+.content1, .home_content, 
+.history_content, .galance_content, 
+.govorning_content, .principle_content, 
+.location_content, .teaching_content, .examination_content, .fine_content, .payment_content, .Annual_Sports_content, .prize_giving_content, .milad_content, .special_days_content, .notic_content, .primary_content, .ssc_content, .hsc_content, .scholarship_content, .scholarship_Junior_content, .admission_content 
+,.academic_content,.aca_calender_content,.scl_sec_content
+,.clg_sec_conten,.eng_ver_content,.cls_wsec_content
+,.aca_resl_content,.cls_rou_content,.syllabus_content
+,.book_l_content,.opn_sub_content,.pri_level_content
+,.scl_level_content,.cls_wsec_clg_content,.clg_resl_content
+,.clg_syllabus_content,.clg_rou_content,.clg_book_l_content,
+.clg_opn_sub_content,.cls_w_secEng_content,.eng_ver_resl_content
+,.eng_cls_rou_content,.eng_ver_syllabus_content,.eng_ver_book_content
+,.eng_ver_opn_sub_content,.co_act_content,.bncc_content
+,.H_act_content,.Air_scout_content,.girl_guide_content
+,.rover_content,.cm_content,.db_cl_content,.sc_cl_content
+,.qz_cl_content,.game_content,.band_content,.dance_content
+,.singer_content,.magazine_content,.wall_magazine_content
+,.facility_content,.primary_aid_content,.sprt_fac_content
+,.song_dance_content,.canteen_content,.book_stall_content
+,.library_content,.staipend_content,.housing_content
+,.contact_content,.principle_speech_content,.principle_mail_content
+,.latest_news1_content,.rules_content,.event_content
+,.result_content,.payment_content,.sports_content,.fresh_reciption_content
+,.other_content,.examination_content,.tution_content
+,.milad_content{
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -2%;
+	width: 62%;
+}
+.content1 h2, .home_content h2, .history_content h2, .galance_content h2, .govorning_content h2, .principle_content h2, .location_content h2, .teaching_content h2, .rules_content h2, .Disciplin_content h2, .uniform_content h2, .tution_content h2, .examination_content h2, .fine_content h2, .payment_content h2, .event_content h2, .training_content h2, .sports_content h2, .Annual_Sports_content h2, .prize_giving_content h2, .fresh_reciption_content h2, .milad_content h2, .special_days_content h2, .inter_competition_content h2, .notic_content h2, .tender_content h2, .stu_circulation_content h2, .result_content h2, .primary_content h2, .jsc_content h2, .ssc_content h2, .hsc_content h2, .scholarship_content h2, .scholarship_primary_content h2, .scholarship_Junior_content h2, .other_content h2, .admission_content h2, .admission_process_content h2, .admission_circular_content h2, .admission_rules_content h2, .admission_results_content h2, .admission_results_ban_content h2, .admission_results_eng_content h2, .admission_form_content h2, .admission_form_ban_content h2, .admission_form_eng_content h2, .academic_content h2, .aca_calender_content h2, .scl_sec_content h2, .clg_sec_content h2, .eng_ver_content h2, .cls_wsec_content h2, .aca_resl_content h2, .cls_rou_content h2, .syllabus_content h2, .book_l_content h2, .opn_sub_content h2, .pri_level_content h2, .scl_level_content h2, .cls_wsec_clg_content h2, .clg_resl_content h2, .clg_syllabus_content h2, .clg_rou_content h2, .clg_book_l_content h2, .clg_opn_sub_content h2, .cls_w_secEng_content h2, .eng_ver_resl_content h2, .eng_cls_rou_content h2, .eng_ver_syllabus_content h2, .eng_ver_book_content h2, .eng_ver_opn_sub_content h2, .co_act_content h2, .bncc_content h2, .H_act_content h2, .Air_scout_content h2, .girl_guide_content h2, .rover_content h2, .cm_content h2, .db_cl_content h2, .sc_cl_content h2, .qz_cl_content h2, .game_content h2, .band_content h2, .dance_content h2, .singer_content h2, .magazine_content h2, .wall_magazine_content h2, .facility_content h2, .primary_aid_content h2, .sprt_fac_content h2, .song_dance_content h2, .canteen_content h2, .book_stall_content h2, .library_content h2, .staipend_content h2, .housing_content h2, .contact_content h2, .principle_mail_content h2, .latest_news1_content h2, .rules_content h2, .event_content h2, .result_content h2, .payment_content h2, .sports_content h2, .fresh_reciption_content h2, .examination_content h2 
+,.job_circulation_content h2{
+	background-color: #1AA3D1;
+	border-radius: 16px 16px 0 0;
+	font-size: 14px!important;
+	padding: 10px 0px 10px 6px;
+	color: #fff;
+	/* margin-left: -3%; */
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.tb td, .tb th {
+	/* padding: .75rem; */
+	/* vertical-align: top; */
+	border: 1px solid #919da8;
+	font-family: "Shonar Bangla", sans-serif;
+	/* font-weight: bold; */
+	color: #633693;
+	font-size: 13px;
+}
+.Annual_Sports_content h3, .prize_giving_content h3, .milad_content h3, .special_days_content h3, .inter_competition_content h3 {
+	font-size: 12px;
+	padding: none;
+	margin: none;
+	margin-left: 4%;
+}
+.notic_content p, .bncc_content p, .H_act_content p {
+	font-size: 10px;
+	padding: 4%;
+	color: #000;
+	text-align: justify;
+}
+.principle_mail_content label {
+	font-size: 10px;
+	margin-left: 0px;
+}
+.principle_mail_content input, .principle_mail_content select {
+	padding: 0px;
+	width: 47%;
+	margin-left: 3%;
+}
+.button1 {
+	font-size: 13px;
+	margin-left: 45%;
+	padding: 0;
+}
+.button2{
+	font-size: 13px;
+	padding: 0;
+}
+.side_right1 p, .side_right2 p, .side_right3 p {
+	padding: 12% 5% 2% 1%;
+}
+.Disciplin_content h1 {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0000FF;
+	padding: 1% 0 0 3.5%;
+	/* font-size: 10px; */
+}
+.Disciplin_content p {
+	/* padding: 0% 2%; */
+	font-size: 12px;
+	/* letter-spacing: 3px; */
+	word-spacing: 3px;
+	padding: 0% 3%;
+	text-align: justify;
+}
+.side-menu2 ul li, .side-menu3 ul li {
+	margin-left: -44%;
+	/* padding: 2%; */
+	/* padding-right: 5%; */
+	padding-left: -16%;
+}
+.side-menu3 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 104%;
+	margin-top: 5%;
+}
+.side-menu4 {
+	background: #fff;
+	border: 1px solid antiquewhite;
+	border-radius: 16px;
+	width: 104%;
+	margin-top: 5%;
+}
+.side-menu4 ul li {
+	margin-left: -48%;
+	padding: 0px 0;
+	font-size: 14px;
+}
+.side-menu ul li ul {
+	margin-left: -91%;
+	width: 109%;
+	margin-top: -30%;
+}
+.side-menu ul li ul li ul {
+	margin-left: -68%;
+	margin-top: -21%;
+}
+.side-menu ul li ul li ul li ul {
+	margin-left: -54%;
+	margin-top: -19%;
+}
+.side-menu ul li {
+	display: block;
+	/* float: left; */
+	margin-left: 0;
+	position: relative;
+	/* border-right: 1px solid #347597; */
+	margin-top: 10px;
+	background-image: url(../image/lmenu_nbg.jpg);
+	background-repeat: no-repeat;
+}
+.side-menu ul li ul li ul li ul li{}
+.side-menu ul li a {
+	display: block;
+	text-decoration: none;
+	/* background: #17E86C; */
+	border: #2F2D2E;
+	padding: 9px 0px 8px 9px;
+	/* margin: -2px; */
+	-moz-transition: .75s;
+	color: #fff;
+	border-left: 1px solid #6F4B5C;
+	/* margin-top: -5px; */
+	font-size: 10px;
+	text-align: left;
+}
+.socail-logo ul li a img {
+	width: 100%;
+}
+.side-menu2 h2, .side-menu3 h2, .side-menu4 h2, .side_right h2, .side_right1 h2, .side_right2 h2, .side_right3 h2 {
+	background-color: #2C3A92;
+	border-radius: 16px 16px 0 0;
+	font-size: 12px;
+	/* padding-left: 11%; */
+	color: #fff;
+	padding: 1% 0% inherit;
+	text-align: center;
+	padding: 12px 0;
+}
+.notic_content {
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -1%;
+	width: 61%;
+}
+.tender_content,.job_circulation_content.stu_circulation_content {
+	float: left;
+	margin-top: 2%;
+	border: 1px solid bisque;
+	border-radius: 16px;
+	padding: 0;
+	margin-left: -1%;
+	width: 100%;
+}
+.tb {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	font-size: 10px;
+}
+.tbl th {
+	/* border-collapse: collapse; */
+	border: 1px solid;
+	/* padding: 0% 6%; */
+	padding: 2% 0%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+.tb1_data2 a {
+	font-size: 13px;
+	color: black;
+	margin-left: -10%;
+}
+
+
+
+	
+
+
+
+
+}
+
+
+
+
+/*Extra css*/
+
+.card-img-top.img-alignment {
+    height: 209px;
+    margin-top: 9px;
+}
+.alumni_content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content1_remove{
+	float: none;
+	margin-top: 0px;
+	border: none;
+	border-radius: 0px;
+	padding: 0;
+	margin-left: 0;
+	width: 100%;
+}
+
+.profile_name {
+	background: red;
+	padding: .5em;
+	color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+p.profile_title.text-left {
+	font-size: 12px;
+	text-align: right !important;
+	color: black;
+	margin-right: 5px;
+}
+
+p.academic_bg {
+	color: red;
+	text-align: left;
+	font-weight: bold;
+}
+
+p.academic_info {
+	text-align: left;
+	text-align: justify;
+	font-size: 14px;
+}
+
+img.img-alignment.img-responsive.student_profile_details_img {
+	width: 200px;
+}
+
+
+
+.content1_remove img {
+  border-radius: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+span.profile_title {
+	font-weight: bold;
+}
+
+h5.card-title.academic_bg {
+	color: red;
+	font-weight: bold;
+}
+
+p.card-text.text-justify.academic_con {
+	font-size: 14px;
+	line-height: 26px;
+}
+p.text-right.profile_title {
+	position: relative;
+	bottom: 107px;
+	color: #4979ab;
+}
